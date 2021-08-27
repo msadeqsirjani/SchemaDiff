@@ -40,5 +40,8 @@ schema identical to `dev`.
 ## DOWNLOAD
 The latest release can be downloaded [here](https://github.com/msadeqsirjani/SchemaDiff/releases)
 
+## CONTRIBUTING
+Pull requests are welcome and appreciated.
+
 
 See ```SchemaDiff.exe help [command]``` for more information and options on each command.
