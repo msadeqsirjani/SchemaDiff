@@ -30,7 +30,7 @@ This will create a database named db from the sql scripts in c:\somedir.
 
 ### COMPARE
 ```bash
-SchemaDiff.exe compare --source "server=dev;database=db;user id =###;password=###" --target "server=qa;database=db;user id=###;password=###" --outFile diff.sql
+SchemaDiff.exe compare --source "server=dev;database=db;user id=###;password=###" --target "server=qa;database=db;user id=###;password=###" --outFile diff.sql
 ```
 
 This will compare the databases named `db` between `dev` and `qa` and
