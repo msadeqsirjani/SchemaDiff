@@ -37,5 +37,8 @@ This will compare the databases named `db` between `dev` and `qa` and
 create a sql script called `diff.sql` that can be run on `qa` to make it's
 schema identical to `dev`.
 
+## DOWNLOAD
+The latest release can be downloaded [here](https://github.com/msadeqsirjani/SchemaDiff/releases)
+
 
 See ```SchemaDiff.exe help [command]``` for more information and options on each command.
