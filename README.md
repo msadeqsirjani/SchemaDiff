@@ -4,7 +4,7 @@
 
 ### script
 ```bash
-    SchemaDiff.exe script --server localhost --database db --scriptDir c:\somedir
+SchemaDiff.exe script --server localhost --database db --scriptDir c:\somedir
 ```
 
 This will generate sql scripts for all objects in the database in a
@@ -22,7 +22,7 @@ c:\somedir\
 
 ### create
 ```bash
-    SchemaDiff.exe create --server localhost --database db --scriptDir c:\somedir
+SchemaDiff.exe create --server localhost --database db --scriptDir c:\somedir
 ```
 
 This will create a database named db from the sql scripts in c:\somedir.
@@ -30,7 +30,7 @@ This will create a database named db from the sql scripts in c:\somedir.
 
 ### compare
 ```bash
-	SchemaDiff.exe compare --source "server=dev;database=db" --target "server=qa;database=db" --outFile diff.sql
+SchemaDiff.exe compare --source "server=dev;database=db" --target "server=qa;database=db" --outFile diff.sql
 ```
 
 This will compare the databases named `db` between `dev` and `qa` and
